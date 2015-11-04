@@ -350,7 +350,7 @@ angular.module('angular-img-cropper', []).directive("imageCropper", ['$document'
                     this.isMouseDown = false;
                     this.ratioW = 1;
                     this.ratioH = 1;
-                    this.fileType = 'png';
+                    this.fileType = 'jpg';
                     this.imageSet = false;
                     this.pointPool = new PointPool(200);
                     CropService.init(canvas);

@@ -25,7 +25,13 @@ module.exports = function (grunt) {
         dest: 'test',
         expand: true
       },
-    },
+      dist:  {
+        cwd: 'src',
+        src: ['angular-img-cropper.js'],
+        dest: 'dist',
+        expand: true
+      }
+    }
 
   });
   grunt.loadNpmTasks('grunt-contrib-uglify');
